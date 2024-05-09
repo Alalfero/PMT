@@ -184,7 +184,7 @@ public interface Iteratoren {
 
 		@Override
 		public Iterator<A> iterator() {
-			return new Iterator<A>() {
+			return new Iterator<>() {
 				long index = 1;
 
 				@Override
