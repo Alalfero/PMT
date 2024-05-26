@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b35d4b4-a7d8-4b53-9933-8f9b70834ced" name="Changes" comment="Aufgabe 3">
+    <list default="true" id="6b35d4b4-a7d8-4b53-9933-8f9b70834ced" name="Changes" comment="Aufgabe 4">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stream und Spliterator/Iterieren mit Stream und Spliterator/src/name/panitz/util/Strom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stream und Spliterator/Iterieren mit Stream und Spliterator/src/name/panitz/util/Strom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Von Schleifen zu Faltungen/Faltungen/src/name/panitz/util/Reduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Von Schleifen zu Faltungen/Faltungen/src/name/panitz/util/Reduction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,29 +51,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/albin/IdeaProjects/ADS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/albin/IdeaProjects/PMT&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\albin\IdeaProjects\PMT\Von Schleifen zu Iteratorobjekten\Iteratoren\src\name\panitz\util" />
       <recent name="C:\Users\albin\IdeaProjects\PMT" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Faltungen.TestMain">
+  <component name="RunManager">
+    <configuration name="Bäume.TestMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="name.panitz.util.TestMain" />
+      <module name="ex436.tk164-97f79a1b-3953-461d-a3ac-cbc7d4a0e280" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Faltungen.TestMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="name.panitz.util.TestMain" />
       <module name="ex434.tk180-bf68120e-6d09-4192-bcd5-fd2056a78318" />
@@ -94,6 +105,13 @@
     <configuration name="Rekursive Listen.TestMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="name.panitz.util.TestMain" />
       <module name="ex432.tk169-26173e13-36b4-439d-a9ac-c78710ad6cd2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XML.TestMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="name.panitz.xml.TestMain" />
+      <module name="ex437.tk183-b9b42909-65cf-4294-8b44-6ec3964e0709" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,6 +142,16 @@
       <workItem from="1715858915909" duration="1267000" />
       <workItem from="1715860202286" duration="2923000" />
       <workItem from="1715868059195" duration="20000" />
+      <workItem from="1715877834593" duration="473000" />
+      <workItem from="1715878343350" duration="1276000" />
+      <workItem from="1715938585772" duration="46000" />
+      <workItem from="1715962667587" duration="198000" />
+      <workItem from="1716056127134" duration="282000" />
+      <workItem from="1716152519974" duration="3000" />
+      <workItem from="1716473133981" duration="5052000" />
+      <workItem from="1716478619066" duration="161000" />
+      <workItem from="1716479104791" duration="3253000" />
+      <workItem from="1716721129160" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgaben 1 und 2">
       <option name="closed" value="true" />

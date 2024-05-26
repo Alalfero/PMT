@@ -92,11 +92,11 @@ public interface Strom {
 
 
 	static public Stream<TwoBig> facPairs() {
-		return Stream.iterate(new TwoBig(BigInteger.ONE,BigInteger.ONE), (a) ->
-				{
-					BigInteger bigInt = a.i1().add(BigInteger.ONE);
-					return new TwoBig(bigInt, a.i2().multiply(bigInt));
-				});
+		return Stream.iterate(new TwoBig(BigInteger.ONE, BigInteger.ONE), (a) ->
+		{
+			BigInteger bigInt = a.i1().add(BigInteger.ONE);
+			return new TwoBig(bigInt, a.i2().multiply(bigInt));
+		});
 	}
 
 
@@ -137,13 +137,16 @@ public interface Strom {
 
 		@Override
 		public Spliterator<Character> trySplit() {
-			int middle = (end-1)/2;
-			return new SpliterateString(i, middle, s);
+			int middle = i+ (end + i) / 2;
+			if (middle <=1) return null;
+			int oEnd = end;
+			end = middle;
+			return new SpliterateString(middle+1, oEnd, s);
 		}
 
 		@Override
 		public long estimateSize() {
-			return (long) (end - i) / 2;
+			return (end - i);
 		}
 
 		@Override

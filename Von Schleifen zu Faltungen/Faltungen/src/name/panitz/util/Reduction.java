@@ -98,7 +98,7 @@ public class Reduction {
 
 
 	public static long product(Iterable<Long> xs) {
-		return fold(xs, 1, (result, x) -> Math.toIntExact(result * x));
+		return fold(xs, 1L, (result, x) -> result * x);
 	}
 
 
