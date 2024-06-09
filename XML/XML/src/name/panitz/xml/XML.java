@@ -441,21 +441,11 @@ public interface XML {
 
 
 	public default List<XML> following(List<XML> result) {
-		boolean start = false;
-
-		if (parentNode() == null) return result;
-
-		if (parentNode() instanceof Element e) {
-			for (XML child : e.childNodes()) {
-				if (child == this) start = true;
-				else if (start) {
-					result.add(child);
-					result.addAll(child.descendant());
-				}
-			}
+		//Manus Lösung
+		for (var ancestor : ancestorOrSelf()) {
+			for (var sibling : ancestor.followingSibling()) result.addAll(sibling.descendantOrSelf());
 		}
-
-		return parentNode().following(result);
+		return result;
 
 	}
 
@@ -465,6 +455,7 @@ public interface XML {
 
 
 	public default List<XML> preceding(List<XML> result) {
+		// meine Lösung, geht auch klar
 		if (parentNode() == null) return result;
 
 		if (parentNode() instanceof Element e) {
@@ -550,7 +541,7 @@ public interface XML {
 	public static class GetBirthYears extends DefaultHandler {
 		public Set<Integer> result = new HashSet<>();
 
-		public void startElement(String uri, String localName, String qName, Attributes attributes){
+		public void startElement(String uri, String localName, String qName, Attributes attributes) {
 			if ("element".equals(qName)) {
 				String attribute = attributes.getValue("born");
 				if (attribute != null) result.add(Integer.parseInt(attribute));

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b35d4b4-a7d8-4b53-9933-8f9b70834ced" name="Changes" comment="Bäume Lösung">
+    <list default="true" id="6b35d4b4-a7d8-4b53-9933-8f9b70834ced" name="Changes" comment="XML Lösung">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rekursive Listen/Rekursive Listen/ex432.tk169-26173e13-36b4-439d-a9ac-c78710ad6cd2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rekursive Listen/Rekursive Listen/ex432.tk169-26173e13-36b4-439d-a9ac-c78710ad6cd2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/XML/src/name/panitz/xml/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/XML/XML/src/name/panitz/xml/XML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/albin/IdeaProjects/PMT&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/albin/IdeaProjects/ADS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\albin\IdeaProjects\PMT\Von Schleifen zu Iteratorobjekten\Iteratoren\src\name\panitz\util" />
@@ -94,6 +103,13 @@
     <configuration name="Iterieren mit Stream und Spliterator.TestMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="name.panitz.util.TestMain" />
       <module name="ex435.tk170-d2877dca-48df-4581-af8b-01f6a3a48be4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Json.TestMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="name.panitz.json.TestMain" />
+      <module name="ex438.tk491-e68bf6a1-7366-4c4e-b6d6-36ffe020f0e9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,7 +168,16 @@
       <workItem from="1716748450092" duration="23000" />
       <workItem from="1716751062137" duration="13000" />
       <workItem from="1717340335918" duration="100000" />
-      <workItem from="1717345781500" duration="7747000" />
+      <workItem from="1717345781500" duration="8056000" />
+      <workItem from="1717408200491" duration="31000" />
+      <workItem from="1717688190291" duration="4430000" />
+      <workItem from="1717753370982" duration="596000" />
+      <workItem from="1717754022606" duration="14000" />
+      <workItem from="1717754630895" duration="58000" />
+      <workItem from="1717755805411" duration="19000" />
+      <workItem from="1717878666075" duration="1684000" />
+      <workItem from="1717880615389" duration="411000" />
+      <workItem from="1717928789008" duration="9088000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgaben 1 und 2">
       <option name="closed" value="true" />
@@ -186,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716748341812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="XML Lösung">
+      <option name="closed" value="true" />
+      <created>1717353775477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717353775477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +252,7 @@
     <MESSAGE value="Aufgaben 1 und 2" />
     <MESSAGE value="Aufgabe 3" />
     <MESSAGE value="Bäume Lösung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bäume Lösung" />
+    <MESSAGE value="XML Lösung" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML Lösung" />
   </component>
 </project>
