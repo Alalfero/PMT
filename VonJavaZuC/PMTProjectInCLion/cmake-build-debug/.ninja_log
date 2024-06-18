@@ -1,0 +1,10 @@
+# ninja log v6
+7	136	7404019306256996	CMakeFiles/PMT.dir/LC01WriteInC/src/javatoc_test.c.obj	5d2a124f52ab4081
+34	253	7404012954638969	CMakeFiles/PMT.dir/javatoc_test.c.obj	e7d261f40e5c763f
+3	351	7404025977016929	build.ninja	b7a8e3286992d9a3
+84	361	7404017735992455	CMakeFiles/PMT.dir/LC01WriteInC/src/CUnit.c.obj	a79ef0491775872a
+3	230	7404017735172454	CMakeFiles/PMT.dir/main.cpp.obj	394fddd900d05bdc
+32	275	7404017735469587	CMakeFiles/PMT.dir/LC01WriteInC/src/JavaToC.c.obj	e1f220950115d611
+8	189	7404013571775227	CMakeFiles/PMT.dir/JavaToC.c.obj	e7326211b0b9efa9
+36	274	7404013572058344	CMakeFiles/PMT.dir/CUnit.c.obj	496bcc0e8f9db485
+7	184	7404035502777653	CMakeFiles/PMT.dir/LC01WriteInC/src/JavaToC.c.obj	e1f220950115d611

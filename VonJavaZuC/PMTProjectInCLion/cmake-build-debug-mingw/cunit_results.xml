@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite>
+  <testcase name="zufall 1">
+<success></success>
+  </testcase>
+  <testcase name="zufall 2">
+<success></success>
+  </testcase>
+  <testcase name="zufall 3">
+<success></success>
+  </testcase>
+  <testcase name="zufall 105">
+<success></success>
+  </testcase>
+  <testcase name="fGoTo 0">
+<success></success>
+  </testcase>
+  <testcase name="fGoTo 1">
+<success></success>
+  </testcase>
+  <testcase name="fGoTo 2">
+<success></success>
+  </testcase>
+  <testcase name="fGoTo 3">
+<success></success>
+  </testcase>
+  <testcase name="kreisUmfang 1">
+<success></success>
+  </testcase>
+  <testcase name="kreisFlaeche">
+<success></success>
+  </testcase>
+  <testcase name="complex add 1">
+<success></success>
+  </testcase>
+  <testcase name="complex sub 1">
+<success></success>
+  </testcase>
+  <testcase name="complex mult 1">
+<success></success>
+  </testcase>
+  <testcase name="complex div 1">
+<success></success>
+  </testcase>
+  <testcase name="norm 1">
+<success></success>
+  </testcase>
+  <testcase name="norm 2">
+<success></success>
+  </testcase>
+  <testcase name="schwelle 1">
+<success></success>
+  </testcase>
+  <testcase name="schwelle 2">
+<success></success>
+  </testcase>
+<storage allocated="0" free="0"/>
+</testsuite>

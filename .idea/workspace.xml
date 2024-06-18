@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b35d4b4-a7d8-4b53-9933-8f9b70834ced" name="Changes" comment="Json Lösungen">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6b35d4b4-a7d8-4b53-9933-8f9b70834ced" name="Changes" comment="Nebenläufigkeit Lösungen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ex436.tk164-97f79a1b-3953-461d-a3ac-cbc7d4a0e280/name/panitz/util/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex436.tk164-97f79a1b-3953-461d-a3ac-cbc7d4a0e280/name/panitz/util/Tree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <recent name="C:\Users\albin\IdeaProjects\PMT" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Bäume.TestMain">
     <configuration name="Bäume.TestMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="name.panitz.util.TestMain" />
       <module name="ex436.tk164-97f79a1b-3953-461d-a3ac-cbc7d4a0e280" />
@@ -198,7 +198,10 @@
       <workItem from="1718294535703" duration="2362000" />
       <workItem from="1718358440489" duration="586000" />
       <workItem from="1718359052985" duration="34000" />
-      <workItem from="1718359184657" duration="1352000" />
+      <workItem from="1718359184657" duration="1640000" />
+      <workItem from="1718367062353" duration="25000" />
+      <workItem from="1718697856130" duration="12000" />
+      <workItem from="1718698224115" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgaben 1 und 2">
       <option name="closed" value="true" />
@@ -248,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717938294277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Nebenläufigkeit Lösungen">
+      <option name="closed" value="true" />
+      <created>1718360665744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718360665744</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +294,7 @@
     <MESSAGE value="Bäume Lösung" />
     <MESSAGE value="XML Lösung" />
     <MESSAGE value="Json Lösungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json Lösungen" />
+    <MESSAGE value="Nebenläufigkeit Lösungen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nebenläufigkeit Lösungen" />
   </component>
 </project>
